@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* Navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);;
+    top: 0; 
+    left:0; 
+    padding-left: 10%;
+    float: none;
+    position: fixed;
+    text-align: center;
+    width:100%;
+    z-index: 1;
+}
+
+.topnav a{
+    float:left;
+    display: block;
+    color: #220000;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
