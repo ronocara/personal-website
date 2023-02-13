@@ -80,6 +80,45 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  div.topnav {
+    font-size: 10px;
+    padding-left: 4%;
+    
+  }
+  div.topnav a{
+    padding: 9px 9px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    display: none;
+  }
+  .form{
+    display: none;
+  }
+  .headP{
+    font-size: 12px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .button {
+    max-width: 10%;
+  }
+  .fa {
+    display: none;
+  }
+
+}
+
 .topnav a:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -96,7 +135,7 @@ p{
   text-decoration: none;
   margin: 5px 2px;
   }
-  
+
   .fa:hover {
       opacity: 0.7;
   }
@@ -135,7 +174,6 @@ p{
    
     position: absolute;
     width:100%;
-    
     font-family: 'Open Sans';
     text-align: center;
     left:0; 
@@ -168,13 +206,13 @@ p{
   background-color: white;
 }
   
-  .caption {
+.caption {
     position: absolute;
     bottom: 5px;
     left: 20px;
     opacity: 0.0;
     transition: transform 0.3s ease, opacity 0.3s ease;
-  }
+}
   
   .transparent-box {
     height: 250px;
@@ -185,7 +223,9 @@ p{
     left: 0;
     transition: background-color 0.3s ease;
   }
-  
+
+
+
   .img-box:hover img { 
     transform: scale(1.1);
   }
@@ -293,3 +333,37 @@ p{
     }
   }
   
+  @media screen and (max-width: 600px) {
+    .img-box {
+      height: 100px;
+      width: 150px;
+    }
+    .gallery-image img {
+      height: 100px;
+      width: 150px;
+    } 
+  .button {
+    padding: 10px 30px;
+  
+    font-size: 10px;
+    cursor: pointer;
+    display: block;    
+    padding-left: 8%;
+    max-width: 27%;
+  }
+  img {
+    width: 200px;
+  }
+
+  .feedback-input {
+    font-size: 12px;
+  }
+  textarea {
+    height: 150px;
+    line-height: 100%;
+    resize:vertical;
+  }
+  [type="submit"] {
+    font-size: 15px;
+  }
+}

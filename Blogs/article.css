@@ -33,24 +33,16 @@
     color: rgb(255, 255, 255);
 }
 
+.header {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+
+  }
 
 
-.button {
-  display: inline-block;
-  background-color: #000000;
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  display: block;    
-  margin-right: auto;
-  max-width: 27%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
 @media screen and (max-width: 600px) {
     body {
       background-color: rgb(255, 255, 255);
@@ -69,5 +61,3 @@
 
   }
   
-
-
