@@ -1,2 +1,4 @@
 # personal-website
-under kalayaan server
+under personal server. 
+
+website link: http://clr.kalayaan.xyz/
